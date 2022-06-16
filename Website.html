@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AR Library</title>
     <script
       type="module"
@@ -18,10 +15,14 @@
     <model-viewer
       src="360_watch_0614.gltf"
       ios-src="360_watch_0615.usdz"
-      alt="遠傳兒童手錶_黃色"
+      alt="Yellow"
+      shadow-intensity="1"
       ar
+      ar-modes="webxr scene-viewer quick-look"
+      ar-scale="auto"
       auto-rotate
       camera-controls
+      quick-look-browsers="safari chrome"
       style="width: 100vw; height: 50vh"
     ></model-viewer>
 
@@ -30,10 +31,14 @@
     <model-viewer
       src="360_watch_green_0614.gltf"
       ios-src="360_watch_green_0615.usdz"
-      alt="FET_Green_Watch"
+      alt="Yellow"
+      shadow-intensity="1"
       ar
+      ar-modes="webxr scene-viewer quick-look"
+      ar-scale="auto"
       auto-rotate
       camera-controls
+      quick-look-browsers="safari chrome"
       style="width: 100vw; height: 50vh"
     ></model-viewer>
   </body>
