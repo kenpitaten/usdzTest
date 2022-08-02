@@ -5,9 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>遠傳兒童定位手錶 用心守護更安心-遠傳電信FETnet</title>
-    <meta name="keywords" content="兒童手錶、定位手錶、視訊手錶、小學生手錶、兒童智慧手錶" />
-    <meta name="description" content="遠傳兒童守護定位手錶$0起，最適合台灣家長使用的兒童定位手錶，在地化設計+優質網路精準定位+在台售後服務，遠傳認證品質有保障！" />
+    <title>遠傳兒童定位手錶3D展示-遠傳電信FETnet</title>
+    <meta
+      name="keywords"
+      content="兒童手錶,定位手錶,視訊手錶,小學生手錶,兒童智慧手錶"
+    />
+    <meta
+      name="description"
+      content="遠傳兒童定位手錶，最適合台灣家長使用的兒童手錶，立即體驗！"
+    />
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="https://www.fetnet.net/favicon.ico" />
     <link
@@ -17,7 +23,10 @@
     />
 
     <!-- Adobe Analysis Manager -->
-    <script src="https://assets.adobedtm.com/098b2b4e4825/5593cc5d758c/launch-142d7e74d75a.min.js" async></script>
+    <script
+      src="https://assets.adobedtm.com/098b2b4e4825/5593cc5d758c/launch-142d7e74d75a.min.js"
+      async
+    ></script>
     <!-- End Adobe Analysis Manager -->
 
     <!-- E2E Analysis -->
@@ -37,16 +46,16 @@
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js',
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
         });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
+          dl = l != "dataLayer" ? "&l=" + l : "";
         j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-ND28QLF');
+      })(window, document, "script", "dataLayer", "GTM-ND28QLF");
     </script>
     <!-- End Google Tag Manager -->
 
@@ -56,6 +65,65 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
     ></script>
     <!-- End Google Model Viewer -->
+
+    <style>
+      #ar-container {
+        position: relative;
+        /* margin-top: 60px; */
+        width: 100vw;
+        /* height: 100vh; */
+      }
+
+      .model-viewer {
+        width: 100%;
+        height: 100%;
+      }
+
+      .buttons {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 10vw;
+        bottom: 1%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .change-model-btn {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #fff;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: none;
+        display: flex;
+      }
+
+      .change-model-btn.yellow {
+        background-image: url("assets/img/360_watch.JPG");
+      }
+
+      .change-model-btn.green {
+        background-image: url("assets/img/360_watch_green.JPG");
+      }
+
+      .change-model-btn.selected {
+        border: 2px solid #4285f4;
+      }
+
+      .change-model-btn:focus {
+        outline: none;
+      }
+
+      .change-model-btn:focus-visible {
+        outline: 1px solid #4285f4;
+      }
+    </style>
   </head>
 
   <body class="is-eservice">
@@ -69,30 +137,31 @@
           >
             <div class="fui-navbar-menu">
               <div class="navbar-center position-relative">
-                <a id="brand" class="navbar-item brand p-0" href="https://www.fetnet.net/content/cbu/tw/index.html">
-                  <img class="d-block w-100" src="https://www.fetnet.net/content/dam/fetnet/resources/common/images/logo.png" alt="FET"></a>
+                <a
+                  id="brand"
+                  class="navbar-item brand p-0"
+                  href="https://www.fetnet.net/content/cbu/tw/index.html"
+                >
+                  <img
+                    class="d-block w-100"
+                    src="https://www.fetnet.net/content/dam/fetnet/resources/common/images/logo.png"
+                    alt="FET"
+                /></a>
               </div>
             </div>
           </nav>
         </div>
       </header>
 
-      <div id="ar-container" style="margin-top: 60px;">
-        <h1 style="display: none;">遠傳兒童定位手錶 用心守護更安心-遠傳電信FETnet</h1>
+      <div id="ar-container">
+        <h1 style="display: none">遠傳兒童定位手錶3D展示-遠傳電信FETnet</h1>
       </div>
-    
+
       <footer class="fui-footer blank-footer">
         <div class="fui-container">
           <div class="MuiGrid-root copyright MuiGrid-container" space="1">
             <div
-              class="
-                MuiGrid-root
-                footer-fetnet
-                MuiGrid-item
-                MuiGrid-grid-xs-12
-                MuiGrid-grid-sm-12
-                MuiGrid-grid-md-12
-              "
+              class="MuiGrid-root footer-fetnet MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12"
             >
               <div class="d-flex">
                 <a
@@ -118,11 +187,11 @@
                   >
 
                   <a
-                  rel="noopener"
-                  href="https://www.fetnet.net/content/cbu/tw/help-center/contact-us.html"
-                  ><small>聯絡我們</small></a
-                >
-                 
+                    rel="noopener"
+                    href="https://www.fetnet.net/content/cbu/tw/help-center/contact-us.html"
+                    ><small>聯絡我們</small></a
+                  >
+
                   <span class="text-sm is-text-gray100"
                     >遠傳電信版權所有 © Far EasTone<span
                       class="d-none d-md-inline"
@@ -138,39 +207,39 @@
     </div>
     <!-- aa event-->
     <script type="text/javascript">
-      var startEvent = new CustomEvent('event-view-start');
-      var endEvent = new CustomEvent('event-view-end');
+      var startEvent = new CustomEvent("event-view-start");
+      var endEvent = new CustomEvent("event-view-end");
 
       // Resource Ready!
-      document.getElementById('root').dispatchEvent(startEvent);
-      console.log('event-view-start ');
+      document.getElementById("root").dispatchEvent(startEvent);
+      console.log("event-view-start ");
 
       var hTag = function () {
         // 頁面中最高層級的<h1>如該頁面最高層級只有H2就送H2
-        var h1Tags = document.getElementsByTagName('h1');
-        var h2Tags = document.getElementsByTagName('h2');
-        var h3Tags = document.getElementsByTagName('h3');
+        var h1Tags = document.getElementsByTagName("h1");
+        var h2Tags = document.getElementsByTagName("h2");
+        var h3Tags = document.getElementsByTagName("h3");
 
         if (h1Tags.length && h1Tags.item(0)) return h1Tags.item(0).innerText;
         if (h2Tags.length && h2Tags.item(0)) return h2Tags.item(0).innerText;
         if (h3Tags.length && h2Tags.item(0)) return h3Tags.item(0).innerText;
 
-        return '';
+        return "";
       };
       var destinationURL = function () {
         // 目前 URL，包含參數
-        return window.location.href || '';
+        return window.location.href || "";
       };
       var pageInfo = function () {
         return {
           hTag: hTag(),
-          referrerURL: document.referrer || '', // 前一頁 URL，包含參數
-          destinationURL: window.location.href || '',
-          breadCrumbs: '',
+          referrerURL: document.referrer || "", // 前一頁 URL，包含參數
+          destinationURL: window.location.href || "",
+          breadCrumbs: "",
         };
       };
 
-      document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener("DOMContentLoaded", function () {
         // DOM Ready!
         window.digitalData = window.digitalData || {};
         window.digitalData = {
@@ -178,9 +247,9 @@
           pageInfo: pageInfo(),
           isForm: false,
         };
-        document.getElementById('root').dispatchEvent(endEvent);
-        console.log('event-view-end ');
-        console.log('DataLayer: ', window.digitalData);
+        document.getElementById("root").dispatchEvent(endEvent);
+        console.log("event-view-end ");
+        console.log("DataLayer: ", window.digitalData);
       });
     </script>
 
@@ -191,48 +260,120 @@
         var isIos = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
         var arContainer = document.getElementById("ar-container");
 
-        if(isIos){
-          arContainer.appendChild(createIosDom('360_watch_0628.usdz', '360_watch.JPG'));
-          arContainer.appendChild(createIosDom('360_watch_green_0628.usdz', '360_watch_green.JPG'));
-        }
-        else{
-          arContainer.appendChild(createModelViewerDom('360_watch_0628'));
-          arContainer.appendChild(createModelViewerDom('360_watch_green_0628'));
+        if (isIos) {
+          arContainer.appendChild(
+            createIosDom("360_watch_0628.usdz", "360_watch.JPG")
+          );
+          arContainer.appendChild(
+            createIosDom("360_watch_green_0628.usdz", "360_watch_green.JPG")
+          );
+        } else {
+          arContainer.appendChild(
+            createModelViewerDom("360_watch_0628", "360_watch.JPG")
+          );
+          // arContainer.appendChild(createModelViewerDom("360_watch_green_0628"));
+
+          const modelViewer = document.querySelector("model-viewer");
+
+          window.switchSrc = (element, modelName, imgName) => {
+            var modelPath = "assets/models/";
+            var imgPath = "assets/img/";
+            modelViewer.src = modelPath + modelName;
+            // modelViewer.poster = imgPath + imgName;
+
+            const buttons = document.querySelectorAll(".change-model-btn");
+            buttons.forEach((element) => {
+              element.classList.remove("selected");
+            });
+            element.classList.add("selected");
+          };
+
+          document
+            .querySelector(".change-model-btn")
+            .addEventListener("beforexrselect", (ev) => {
+              // Keep slider interactions from affecting the XR scene.
+              ev.preventDefault();
+            });
+
+          setHeight();
         }
       };
 
       var createIosDom = function (modelName, imgName) {
-        var newArDom = document.createElement('a');
-        var newImgDom = document.createElement('img');
-        var modelPath = 'assets/models/';
-        var imgPath = 'assets/img/';
-        newArDom.setAttribute('rel','ar');
-        newArDom.setAttribute('href', modelPath + modelName);
-        newImgDom.setAttribute('src', imgPath + imgName);
-        newImgDom.setAttribute('width', '500px');
-        newImgDom.setAttribute('height', '500px');
+        var newArDom = document.createElement("a");
+        var newImgDom = document.createElement("img");
+        var modelPath = "assets/models/";
+        var imgPath = "assets/img/";
+        newArDom.setAttribute("rel", "ar");
+        newArDom.setAttribute("href", modelPath + modelName);
+        newImgDom.setAttribute("src", imgPath + imgName);
+        newImgDom.setAttribute("width", "500px");
+        newImgDom.setAttribute("height", "500px");
 
         newArDom.appendChild(newImgDom);
 
         return newArDom;
       };
 
-      var createModelViewerDom = function (modelName) {
-        var newArDom = document.createElement('model-viewer');
-        var modelPath = 'assets/models/';
-        newArDom.setAttribute('ar', null);
-        newArDom.setAttribute('ar-modes', 'webxr quick-look scene-viewer');
-        newArDom.setAttribute('auto', null);
-        newArDom.setAttribute('src', modelPath + modelName + '.gltf');
-        newArDom.setAttribute('ios-src', modelPath + modelName + '.usdz');
-        newArDom.setAttribute('quick-look-browsers', 'safari chrome');
-        newArDom.setAttribute('alt', '遠傳兒童定位手錶');
-        newArDom.setAttribute('shadow-intensity', '1');
-        newArDom.setAttribute('auto-rotate', null);
-        newArDom.setAttribute('camera-controls', null);
-        newArDom.setAttribute('style', 'width: 100vw; height: 90vh');
+      var createModelViewerDom = function (modelName, imgName) {
+        var newArDom = document.createElement("model-viewer");
+        var buttonsDom = document.createElement("div");
+
+        var modelPath = "assets/models/";
+        var imgPath = "assets/img/";
+        newArDom.setAttribute("ar", null);
+        newArDom.setAttribute("ar-modes", "webxr quick-look scene-viewer");
+        newArDom.setAttribute("auto", null);
+        newArDom.setAttribute("src", modelPath + modelName + ".gltf");
+        newArDom.setAttribute("ios-src", modelPath + modelName + ".usdz");
+        // newArDom.setAttribute("poster", imgPath + imgName);
+        newArDom.setAttribute("quick-look-browsers", "safari chrome");
+        newArDom.setAttribute("alt", "遠傳兒童定位手錶");
+        newArDom.setAttribute("shadow-intensity", "1");
+        newArDom.setAttribute("auto-rotate", null);
+        newArDom.setAttribute("camera-controls", null);
+        newArDom.setAttribute("class", "model-viewer");
+
+        buttonsDom.setAttribute("class", "buttons");
+        buttonsDom.appendChild(
+          createButtonDom(
+            "yellow selected",
+            "360_watch_0628.gltf",
+            "360_watch.JPG"
+          )
+        );
+        buttonsDom.appendChild(
+          createButtonDom(
+            "green",
+            "360_watch_green_0628.gltf",
+            "360_watch_green.JPG"
+          )
+        );
+
+        newArDom.appendChild(buttonsDom);
 
         return newArDom;
+      };
+
+      var createButtonDom = function (color, modelName, imgName) {
+        var changeModelBtnDom = document.createElement("button");
+
+        changeModelBtnDom.setAttribute("class", "change-model-btn " + color);
+        changeModelBtnDom.setAttribute(
+          "onclick",
+          'switchSrc(this, "' + modelName + '", "' + imgName + '")'
+        );
+
+        return changeModelBtnDom;
+      };
+
+      var setHeight = function () {
+        var header = document.querySelector("header");
+        var footer = document.querySelector("footer");
+        var arContainer = document.getElementById("ar-container");
+        arContainer.style.marginTop = header.offsetHeight + "px";
+        arContainer.style.height =
+          "calc(100vh - " + (header.offsetHeight + footer.offsetHeight) + "px)";
       };
 
       Init();
